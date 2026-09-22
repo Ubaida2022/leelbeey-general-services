@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery | Leelbeey General Services — Tailoring, Textiles &amp; Kitchen</title>
+  <meta name="description" content="Browse the Leelbeey General Services gallery — featuring tailoring, textiles, fashion products, and kitchen utensils. Filter by category and view full-size images." />
+  <link rel="icon" type="image/jpeg" href="images/logo/logo.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <div class="navbar-inner">
+      <a href="index.html" class="navbar-logo" aria-label="Leelbeey General Services Home">
+        <img src="images/logo/logo.jpg" alt="Leelbeey General Services Logo" />
+        <div class="navbar-logo-text">Leelbeey General Services<span>Zaria, Kaduna State</span></div>
+      </a>
+      <ul class="navbar-nav" role="list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services &amp; Products</a></li>
+        <li><a href="gallery.html" class="active">Gallery</a></li>
+        <li><a href="tailoring.html">Tailoring &amp; Training</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="navbar-cta">
+        <a href="https://wa.me/2347067229062?text=Hello%20Leelbeey%20General%20Services%2C%20I%20would%20like%20to%20make%20an%20enquiry." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer">💬 Order / Contact Us</a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobileNav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <div class="mobile-nav" id="mobileNav" role="dialog" aria-label="Mobile navigation">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services &amp; Products</a>
+    <a href="gallery.html" class="active">Gallery</a>
+    <a href="tailoring.html">Tailoring &amp; Training</a>
+    <a href="contact.html">Contact</a>
+    <div class="mobile-cta">
+      <a href="https://wa.me/2347067229062?text=Hello%20Leelbeey%20General%20Services%2C%20I%20would%20like%20to%20make%20an%20enquiry." class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">💬 Chat on WhatsApp</a>
+      <a href="contact.html" class="btn btn-outline">Contact Us</a>
+    </div>
+  </div>
+
+  <main>
+
+    <!-- ===== PAGE HERO ===== -->
+    <header class="page-hero" aria-labelledby="pageHeroTitle">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="index.html">Home</a><span aria-hidden="true">›</span><span aria-current="page">Gallery</span>
+        </nav>
+        <h1 class="page-hero-title" id="pageHeroTitle">Our <span>Gallery</span></h1>
+        <p class="page-hero-subtitle">Browse our work — tailoring, textiles, kitchen products, and more. Click any image to view full size.</p>
+      </div>
+    </header>
+
+    <!-- ===== GALLERY SECTION ===== -->
+    <section class="section" aria-labelledby="galleryHeading">
+      <div class="container">
+
+        <h2 id="galleryHeading" class="sr-only">Image Gallery</h2>
+
+        <!-- Filter Bar -->
+        <div class="gallery-filter" role="group" aria-label="Filter gallery by category">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="tailoring">✂️ Tailoring</button>
+          <button class="filter-btn" data-filter="textiles">🎨 Textiles &amp; Fashion</button>
+          <button class="filter-btn" data-filter="kitchen">🍳 Kitchen</button>
+        </div>
+
+        <!-- Gallery Grid -->
+        <div class="gallery-grid" id="galleryGrid" role="list">
+
+          <!-- TAILORING IMAGES -->
+          <div class="gallery-item tall" data-category="tailoring" role="listitem">
+            <img src="images/tailoring/tailoring-01.jpg" alt="Custom tailored outfit by Leelbeey General Services" loading="lazy" />
+            <div class="gallery-overlay" aria-hidden="true"><div class="gallery-overlay-icon">🔍</div></div>
+          </div>
+          <div class="gallery-item" data-category="tailoring" role="listitem">
+            <img src="images/tailoring/tailoring-02.jpg" alt="Women's fashion by Leelbeey" loading="lazy" />
+            <div class="gallery-overlay" aria-hidden="true"><div class="gallery-overlay-icon">🔍</div></div>
+          </div>
+          <div class="gallery-item" data-category="tailoring" role="listitem">
+            <img src="images/tailoring/tailoring-03.jpg" alt="Tailored dress by Leelbeey General Services" loading="lazy" />
+            <div class="gallery-overlay" aria-hidden="true"><div class="gallery-overlay-icon">🔍</div></div>
+          </div>
+          <div class="gallery-item" data-category="tailoring" role="listitem">
+            <img src="images/tailoring/tailoring-04.jpg" alt="Custom clothing by Leelbeey" loading="lazy" />
+            <div class="gallery-overlay" aria-hidden="true"><div class="gallery-overlay-icon">🔍</div></div>
+          </div>
+          <div class="gallery-item tall" data-category="tailoring" role="listitem">
+            <img src="images/tailoring/tailoring-05.jpg" alt="Fashion design by Leelbeey General Services" loading="lazy" />
+            <div class="gallery-overlay" aria-hidden="true"><div class="gallery-overlay-icon">🔍</div></div>
+          </div>
+          <div class="gallery-item" data-category="tailoring" role="listitem">
+            <img src="images/tailoring/tailoring-06.jpg" alt="Children's clothing by Leelbeey" loading="lazy" />
+            <div class="gallery-overlay" aria-hidden="true"><div class="gallery-overlay-icon">🔍</div></div>
+          </div>
+          <div class="gallery-item" data-category="tailoring" role="listitem">
+            <img src="images/tailoring/tailoring-07.jpg" alt="Baby girl dress by Leelbeey General Services" loading="lazy" />
+            <div class="gallery-overlay" aria-hidden="true"><div class="gallery-overlay-icon">🔍</div></div>
+          </div>
+          <div class="gallery-item" data-category="tailoring" role="listitem">
+            <img src="images/tailoring/tailoring-08.jpg" alt="Tailoring work by Leelbeey" loading="lazy" />
+            <div class="gallery-overlay" aria-hidden="true"><div class="gallery-overlay-icon">🔍</div></div>
+          </div>
+          <div class="gallery-item" data-category="tailoring" role="listitem">
+            <img src="images/tailoring/tailoring-09.jpg" alt="Sewing and tailoring by Leelbeey General Services" loading="lazy" />
+            <div class="gallery-overlay" aria-hidden="true"><div class="gallery-overlay-icon">🔍</div></div>
+          </div>
+          <div class="gallery-item" data-category="tailoring" role="listitem">
+            <img src="images/tailoring/tailoring-10.jpg" alt="Fashion by Leelbeey General Services" loading="lazy" />
+            <div class="gallery-overlay" aria-hidden="true"><div class="gallery-overlay-icon">🔍</div></div>
+          </div>
+          <div class="gallery-item" data-category="tailoring" role="listitem">
+            <img src="images/tailoring/tailoring-11.jpg" alt="Tailoring training by Leelbeey" loading="lazy" />
+            <div class="gallery-overlay" aria-hidden="true"><div class="gallery-overlay-icon">🔍</div></div>
+          </div>
+
+          <!-- TEXTILES IMAGES -->
+          <div class="gallery-item tall" data-category="textiles" role="listitem">
+            <img src="images/textiles/textile-01.jpg" alt="Ankara fabric by Leelbeey General Services" loading="lazy" />
+            <div class="gallery-overlay" aria-hidden="true"><div class="gallery-overlay-icon">🔍</div></div>
+          </div>
+          <div class="gallery-item" data-category="textiles" role="listitem">
+            <img src="images/textiles/textile-02.jpg" alt="Textiles from Leelbeey" loading="lazy" />
+            <div class="gallery-overlay" aria-hidden="true"><div class="gallery-overlay-icon">🔍</div></div>
+          </div>
+          <div class="gallery-item" data-category="textiles" role="listitem">
+            <img src="images/textiles/textile-03.jpg" alt="Fashion product from Leelbeey General Services" loading="lazy" />
+            <div class="gallery-overlay" aria-hidden="true"><div class="gallery-overlay-icon">🔍</div></div>
+          </div>
+          <div class="gallery-item" data-category="textiles" role="listitem">
+            <img src="images/textiles/textile-04.jpg" alt="Fabric from Leelbeey" loading="lazy" />
+            <div class="gallery-overlay" aria-hidden="true"><div class="gallery-overlay-icon">🔍</div></div>
+          </div>
+          <div class="gallery-item" data-category="textiles" role="listitem">
+            <img src="images/textiles/textile-05.jpg" alt="Atamfa fabric from Leelbeey General Services" loading="lazy" />
+            <div class="gallery-overlay" aria-hidden="true"><div class="gallery-overlay-icon">🔍</div></div>
+          </div>
+          <div class="gallery-item tall" data-category="textiles" role="listitem">
+            <img src="images/textiles/textile-06.jpg" alt="Quality textiles from Leelbeey" loading="lazy" />
+            <div class="gallery-overlay" aria-hidden="true"><div class="gallery-overlay-icon">🔍</div></div>
+          </div>
+          <div class="gallery-item" data-category="textiles" role="listitem">
+            <img src="images/textiles/textile-07.jpg" alt="Fashion fabric from Leelbeey General Services" loading="lazy" />
+            <div class="gallery-overlay" aria-hidden="true"><div class="gallery-overlay-icon">🔍</div></div>
+          </div>
+          <div class="gallery-item" data-category="textiles" role="listitem">
+            <img src="images/textiles/textile-08.jpg" alt="Lace fabric from Leelbeey" loading="lazy" />
+            <div class="gallery-overlay" aria-hidden="true"><div class="gallery-overlay-icon">🔍</div></div>
+          </div>
+          <div class="gallery-item" data-category="textiles" role="listitem">
+            <img src="images/textiles/textile-09.jpg" alt="Textile product from Leelbeey General Services" loading="lazy" />
+            <div class="gallery-overlay" aria-hidden="true"><div class="gallery-overlay-icon">🔍</div></div>
+          </div>
+          <div class="gallery-item" data-category="textiles" role="listitem">
+            <img src="images/textiles/textile-10.jpg" alt="Fashion item from Leelbeey" loading="lazy" />
+            <div class="gallery-overlay" aria-hidden="true"><div class="gallery-overlay-icon">🔍</div></div>
+          </div>
+          <div class="gallery-item" data-category="textiles" role="listitem">
+            <img src="images/textiles/textile-11.jpg" alt="Veil from Leelbeey General Services" loading="lazy" />
+            <div class="gallery-overlay" aria-hidden="true"><div class="gallery-overlay-icon">🔍</div></div>
+          </div>
+          <div class="gallery-item" data-category="textiles" role="listitem">
+            <img src="images/textiles/textile-12.jpg" alt="Textile from Leelbeey" loading="lazy" />
+            <div class="gallery-overlay" aria-hidden="true"><div class="gallery-overlay-icon">🔍</div></div>
+          </div>
+          <div class="gallery-item" data-category="textiles" role="listitem">
+            <img src="images/textiles/textile-13.jpg" alt="Fashion product from Leelbeey" loading="lazy" />
+            <div class="gallery-overlay" aria-hidden="true"><div class="gallery-overlay-icon">🔍</div></div>
+          </div>
+          <div class="gallery-item" data-category="textiles" role="listitem">
+            <img src="images/textiles/textile-14.jpg" alt="Abaya from Leelbeey General Services" loading="lazy" />
+            <div class="gallery-overlay" aria-hidden="true"><div class="gallery-overlay-icon">🔍</div></div>
+          </div>
+          <div class="gallery-item" data-category="textiles" role="listitem">
+            <img src="images/textiles/textile-15.jpg" alt="Fashion accessories from Leelbeey" loading="lazy" />
+            <div class="gallery-overlay" aria-hidden="true"><div class="gallery-overlay-icon">🔍</div></div>
+          </div>
+          <div class="gallery-item" data-category="textiles" role="listitem">
+            <img src="images/textiles/textile-16.jpg" alt="Textile product from Leelbeey General Services" loading="lazy" />
+            <div class="gallery-overlay" aria-hidden="true"><div class="gallery-overlay-icon">🔍</div></div>
+          </div>
+          <div class="gallery-item" data-category="textiles" role="listitem">
+            <img src="images/textiles/textile-17.jpg" alt="Bag from Leelbeey General Services" loading="lazy" />
+            <div class="gallery-overlay" aria-hidden="true"><div class="gallery-overlay-icon">🔍</div></div>
+          </div>
+          <div class="gallery-item" data-category="textiles" role="listitem">
+            <img src="images/textiles/textile-18.jpg" alt="Shoe from Leelbeey General Services" loading="lazy" />
+            <div class="gallery-overlay" aria-hidden="true"><div class="gallery-overlay-icon">🔍</div></div>
+          </div>
+          <div class="gallery-item" data-category="textiles" role="listitem">
+            <img src="images/textiles/textile-19.jpg" alt="Fashion item from Leelbeey" loading="lazy" />
+            <div class="gallery-overlay" aria-hidden="true"><div class="gallery-overlay-icon">🔍</div></div>
+          </div>
+          <div class="gallery-item" data-category="textiles" role="listitem">
+            <img src="images/textiles/textile-20.jpg" alt="Textile from Leelbeey General Services" loading="lazy" />
+            <div class="gallery-overlay" aria-hidden="true"><div class="gallery-overlay-icon">🔍</div></div>
+          </div>
+
+          <!-- KITCHEN IMAGES -->
+          <div class="gallery-item" data-category="kitchen" role="listitem">
+            <img src="images/kitchen/kitchen-01.jpg" alt="Kitchen utensil from Leelbeey General Services" loading="lazy" />
+            <div class="gallery-overlay" aria-hidden="true"><div class="gallery-overlay-icon">🔍</div></div>
+          </div>
+          <div class="gallery-item tall" data-category="kitchen" role="listitem">
+            <img src="images/kitchen/kitchen-02.jpg" alt="Kitchen product from Leelbeey" loading="lazy" />
+            <div class="gallery-overlay" aria-hidden="true"><div class="gallery-overlay-icon">🔍</div></div>
+          </div>
+          <div class="gallery-item" data-category="kitchen" role="listitem">
+            <img src="images/kitchen/kitchen-03.jpg" alt="Kitchen utensil from Leelbeey General Services" loading="lazy" />
+            <div class="gallery-overlay" aria-hidden="true"><div class="gallery-overlay-icon">🔍</div></div>
+          </div>
+          <div class="gallery-item" data-category="kitchen" role="listitem">
+            <img src="images/kitchen/kitchen-04.jpg" alt="Kitchen product from Leelbeey" loading="lazy" />
+            <div class="gallery-overlay" aria-hidden="true"><div class="gallery-overlay-icon">🔍</div></div>
+          </div>
+          <div class="gallery-item" data-category="kitchen" role="listitem">
+            <img src="images/kitchen/kitchen-05.jpg" alt="Kitchen item from Leelbeey General Services" loading="lazy" />
+            <div class="gallery-overlay" aria-hidden="true"><div class="gallery-overlay-icon">🔍</div></div>
+          </div>
+          <div class="gallery-item" data-category="kitchen" role="listitem">
+            <img src="images/kitchen/kitchen-06.jpg" alt="Kitchen utensil from Leelbeey" loading="lazy" />
+            <div class="gallery-overlay" aria-hidden="true"><div class="gallery-overlay-icon">🔍</div></div>
+          </div>
+          <div class="gallery-item" data-category="kitchen" role="listitem">
+            <img src="images/kitchen/kitchen-07.jpg" alt="Kitchen product from Leelbeey General Services" loading="lazy" />
+            <div class="gallery-overlay" aria-hidden="true"><div class="gallery-overlay-icon">🔍</div></div>
+          </div>
+          <div class="gallery-item" data-category="kitchen" role="listitem">
+            <img src="images/kitchen/kitchen-08.jpg" alt="Kitchen item from Leelbeey" loading="lazy" />
+            <div class="gallery-overlay" aria-hidden="true"><div class="gallery-overlay-icon">🔍</div></div>
+          </div>
+          <div class="gallery-item" data-category="kitchen" role="listitem">
+            <img src="images/kitchen/kitchen-09.jpg" alt="Kitchen utensil from Leelbeey General Services" loading="lazy" />
+            <div class="gallery-overlay" aria-hidden="true"><div class="gallery-overlay-icon">🔍</div></div>
+          </div>
+          <div class="gallery-item" data-category="kitchen" role="listitem">
+            <img src="images/kitchen/kitchen-10.jpg" alt="Kitchen product from Leelbeey" loading="lazy" />
+            <div class="gallery-overlay" aria-hidden="true"><div class="gallery-overlay-icon">🔍</div></div>
+          </div>
+          <div class="gallery-item" data-category="kitchen" role="listitem">
+            <img src="images/kitchen/kitchen-11.jpg" alt="Kitchen utensil from Leelbeey General Services" loading="lazy" />
+            <div class="gallery-overlay" aria-hidden="true"><div class="gallery-overlay-icon">🔍</div></div>
+          </div>
+          <div class="gallery-item" data-category="kitchen" role="listitem">
+            <img src="images/kitchen/kitchen-12.jpg" alt="Kitchen item from Leelbeey" loading="lazy" />
+            <div class="gallery-overlay" aria-hidden="true"><div class="gallery-overlay-icon">🔍</div></div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== GALLERY CTA ===== -->
+    <section class="cta-band" aria-labelledby="galleryCtaHeading">
+      <div class="container">
+        <h2 id="galleryCtaHeading">See Something You Like?</h2>
+        <p>Reach out on WhatsApp to enquire about any of our products or services. We're always happy to help.</p>
+        <div class="cta-band-btns">
+          <a href="https://wa.me/2347067229062?text=Hello%20Leelbeey%20General%20Services%2C%20I%20would%20like%20to%20make%20an%20enquiry%20about%20a%20product%20I%20saw%20in%20your%20gallery." class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">💬 Enquire on WhatsApp</a>
+          <a href="services.html" class="btn btn-outline-white">View All Services →</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== LIGHTBOX ===== -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close image viewer">✕</button>
+    <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Previous image">‹</button>
+    <div class="lightbox-content">
+      <img src="" alt="" id="lightboxImg" />
+    </div>
+    <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Next image">›</button>
+  </div>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <img src="images/logo/logo.jpg" alt="Leelbeey General Services Logo" />
+            <div class="footer-logo-text">Leelbeey General Services<span>Zaria, Kaduna State</span></div>
+          </div>
+          <p class="footer-tagline">Quality • Creativity • Service</p>
+          <p>A growing multi-service business in Zaria, Kaduna State, Nigeria.</p>
+          <a href="https://chat.whatsapp.com/KCjk399kIYrIl4DM6dcDXU" class="footer-whatsapp" target="_blank" rel="noopener noreferrer">💬 Join Our WhatsApp Community</a>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul role="list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services &amp; Products</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="tailoring.html">Tailoring &amp; Training</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Our Services</h4>
+          <ul role="list">
+            <li><a href="tailoring.html">Tailoring</a></li>
+            <li><a href="tailoring.html#training">Tailoring Training</a></li>
+            <li><a href="services.html#textiles">Textiles &amp; Fashion</a></li>
+            <li><a href="services.html#kitchen">Kitchen Utensils</a></li>
+            <li><a href="services.html#webdev">Web Development</a></li>
+            <li><a href="services.html#design">Graphic Design</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact Us</h4>
+          <address style="font-style:normal;">
+            <div class="footer-contact-item"><span class="icon" aria-hidden="true">📍</span><span>Zaria, Kaduna State, Nigeria</span></div>
+            <div class="footer-contact-item"><span class="icon" aria-hidden="true">📞</span><a href="tel:+2347067229062" style="color: rgba(255,255,255,0.65);">07067229062</a></div>
+            <div class="footer-contact-item"><span class="icon" aria-hidden="true">💬</span><a href="https://wa.me/2347067229062" target="_blank" rel="noopener noreferrer" style="color: #25D366;">WhatsApp Us</a></div>
+          </address>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Leelbeey General Services. All Rights Reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="contact.html">Contact</a>
+          <a href="about.html">About</a>
+          <a href="https://chat.whatsapp.com/KCjk399kIYrIl4DM6dcDXU" target="_blank" rel="noopener noreferrer">WhatsApp Community</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
