@@ -1,24 +1,24 @@
-# Leelbeey General Services — Official Website
+ Leelbeey General Services — Official Website
 
-A responsive, professional multi-page frontend website built for **Leelbeey General Services**, a growing multi-service business based in Zaria, Kaduna State, Nigeria.
+A responsive, professional multi-page frontend website built for Leelbeey General Services, a growing multi-service business based in Zaria, Kaduna State, Nigeria.
 
-This project was also submitted as a **Final Project for Front-End Website Development**.
-
----
-
-## 🌐 Live Demo
-
-> **Vercel Deployment URL:** _[Add your Vercel live URL here after deployment]_
+This project was also submitted as a Final Project for Front-End Website Development.
 
 ---
 
-## 📁 GitHub Repository
+ 🌐 Live Demo
 
-> **Repository URL:** _[Add your GitHub repository URL here]_
+> Vercel Deployment URL: [leelbeey-general-services.vercel.app](https://leelbeey-general-services.vercel.app)
 
 ---
 
-## 📋 Project Description
+📁 GitHub Repository
+
+> Repository URL: [github.com/Ubaida2022/leelbeey-general-services](https://github.com/Ubaida2022/leelbeey-general-services)
+
+---
+
+ 📋 Project Description
 
 Leelbeey General Services offers:
 - Custom tailoring & fashion design
@@ -32,23 +32,23 @@ The website showcases all services and products using real business images, and 
 
 ---
 
-## ✨ Features
+✨ Features
 
-- ✅ **Responsive Design** — Works on mobile, tablet, and desktop
-- ✅ **Multi-Page Navigation** — 6 pages with consistent header and footer
-- ✅ **Service & Product Showcase** — All services with real images
-- ✅ **Tailoring Portfolio** — Custom showcase with full image grid
-- ✅ **Product Gallery** — Category filters (Tailoring, Textiles, Kitchen) + Lightbox
-- ✅ **Contact Form** — Frontend validation + demo success message
-- ✅ **WhatsApp Integration** — Direct WhatsApp links with pre-filled messages
-- ✅ **Mobile Hamburger Menu** — Smooth open/close animation
-- ✅ **Scroll Fade-In Animations** — Smooth section reveal on scroll
-- ✅ **Accessibility** — Semantic HTML, ARIA labels, keyboard navigation
-- ✅ **SEO Basics** — Unique titles, meta descriptions, semantic headings per page
+- ✅ Responsive Design — Works on mobile, tablet, and desktop
+- ✅ Multi-Page Navigation — 6 pages with consistent header and footer
+- ✅ Service & Product Showcase — All services with real images
+- ✅ Tailoring Portfolio — Custom showcase with full image grid
+- ✅ Product Gallery — Category filters (Tailoring, Textiles, Kitchen) + Lightbox
+- ✅ Contact Form — Frontend validation + demo success message
+- ✅ WhatsApp Integration — Direct WhatsApp links with pre-filled messages
+- ✅ Mobile Hamburger Menu — Smooth open/close animation
+- ✅ Scroll Fade-In Animations — Smooth section reveal on scroll
+- ✅ Accessibility — Semantic HTML, ARIA labels, keyboard navigation
+- ✅ SEO Basics — Unique titles, meta descriptions, semantic headings per page
 
 ---
 
-## 🗂 Project Structure
+ 🗂 Project Structure
 
 ```
 final-project/
@@ -78,7 +78,7 @@ final-project/
 
 ---
 
-## 🎨 Design System
+ 🎨 Design System
 
 | Element | Value |
 |---|---|
@@ -92,7 +92,7 @@ final-project/
 
 ---
 
-## 🛠 Technologies Used
+ 🛠 Technologies Used
 
 | Technology | Purpose |
 |---|---|
@@ -107,7 +107,7 @@ No frameworks, no dependencies, no build tools required. Pure HTML, CSS, and Jav
 
 ---
 
-## 📱 Responsive Breakpoints
+ 📱 Responsive Breakpoints
 
 | Breakpoint | Target |
 |---|---|
@@ -117,20 +117,20 @@ No frameworks, no dependencies, no build tools required. Pure HTML, CSS, and Jav
 
 ---
 
-## 🚀 Deployment Instructions (Vercel)
+ 🚀 Deployment Instructions (Vercel)
 
 1. Upload this project folder to a GitHub repository.
 2. Go to [vercel.com](https://vercel.com) and sign in.
-3. Click **"Add New Project"** and import your GitHub repository.
+3. Click *"Add New Project" and import your GitHub repository.
 4. Vercel will detect it as a static site automatically.
-5. Click **Deploy**.
+5. Click Deploy.
 6. Copy your live URL and add it above under "Live Demo".
 
 No build settings required — this is a pure static website.
 
 ---
 
-## 📲 WhatsApp Contact
+ 📲 WhatsApp Contact
 
 | Purpose | Pre-filled Message |
 |---|---|
@@ -142,34 +142,34 @@ No build settings required — this is a pure static website.
 | Web Dev | "…I would like to enquire about your web development services." |
 | Design | "…I would like to enquire about your graphic design services." |
 
-WhatsApp Business Number: **07067229062** (+2347067229062 international format)
+WhatsApp Business Number: 07067229062 (+2347067229062 international format)
 
 WhatsApp Community: https://chat.whatsapp.com/KCjk399kIYrIl4DM6dcDXU
 
 ---
 
-## 📚 Academic Project Notes
+ 📚 Academic Project Notes
 
 This website satisfies the following front-end development rubric:
 
 | Criterion | Implementation |
 |---|---|
-| **HTML Structure (20 marks)** | Semantic HTML5, 6 pages, navigation, forms, sections, footer |
-| **CSS Styling (20 marks)** | CSS variables design system, Flexbox + Grid, hover effects, typography |
-| **Responsiveness (20 marks)** | Mobile/tablet/desktop breakpoints, hamburger menu, fluid images |
-| **Content & Design Quality (15 marks)** | Real business images, professional UI, consistent brand identity |
-| **GitHub Usage (10 marks)** | Clean structured codebase, meaningful filenames, README |
-| **Vercel Deployment (10 marks)** | Static site, no server requirements, clean relative paths |
-| **README (5 marks)** | This file |
+| HTML Structure (20 marks) | Semantic HTML5, 6 pages, navigation, forms, sections, footer |
+| CSS Styling (20 marks) | CSS variables design system, Flexbox + Grid, hover effects, typography |
+| Responsiveness (20 marks) | Mobile/tablet/desktop breakpoints, hamburger menu, fluid images |
+| Content & Design Quality (15 marks) | Real business images, professional UI, consistent brand identity |
+| GitHub Usage (10 marks) | Clean structured codebase, meaningful filenames, README |
+| Vercel Deployment (10 marks) | Static site, no server requirements, clean relative paths |
+| README (5 marks) | This file |
 
 ---
 
-## 📍 Business Information
+ 📍 Business Information
 
-**Leelbeey General Services**
+Leelbeey General Services
 Zaria, Kaduna State, Nigeria
 📞 07067229062
 
 ---
 
-*© 2026 Leelbeey General Services. All Rights Reserved.*
+© 2026 Leelbeey General Services. All Rights Reserved.
