@@ -2,10 +2,6 @@
 
 A responsive, professional multi-page frontend website built for Leelbeey General Services, a growing multi-service business based in Zaria, Kaduna State, Nigeria.
 
-This project was also submitted as a Final Project for Front-End Website Development.
-
----
-
  🌐 Live Demo
 
 > Vercel Deployment URL: [leelbeey-general-services.vercel.app](https://leelbeey-general-services.vercel.app)
@@ -96,12 +92,12 @@ final-project/
 
 | Technology | Purpose |
 |---|---|
-| **HTML5** | Semantic page structure, accessibility, SEO |
-| **CSS3** | Design system, Flexbox, CSS Grid, responsive layout, animations |
-| **Vanilla JavaScript** | Mobile nav, gallery filter, lightbox, form validation, scroll effects |
-| **Google Fonts** | Playfair Display + Poppins typography |
-| **Git / GitHub** | Version control |
-| **Vercel** | Static site deployment |
+| HTML5 | Semantic page structure, accessibility, SEO |
+| CSS3 | Design system, Flexbox, CSS Grid, responsive layout, animations |
+| Vanilla JavaScript | Mobile nav, gallery filter, lightbox, form validation, scroll effects |
+| Google Fonts | Playfair Display + Poppins typography |
+| Git / GitHub | Version control |
+| Vercel | Static site deployment |
 
 No frameworks, no dependencies, no build tools required. Pure HTML, CSS, and JavaScript.
 
@@ -121,7 +117,7 @@ No frameworks, no dependencies, no build tools required. Pure HTML, CSS, and Jav
 
 1. Upload this project folder to a GitHub repository.
 2. Go to [vercel.com](https://vercel.com) and sign in.
-3. Click *"Add New Project" and import your GitHub repository.
+3. Click "Add New Project" and import your GitHub repository.
 4. Vercel will detect it as a static site automatically.
 5. Click Deploy.
 6. Copy your live URL and add it above under "Live Demo".
